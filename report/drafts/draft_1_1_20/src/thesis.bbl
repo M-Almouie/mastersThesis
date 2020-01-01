@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{RN1}
+B.~E. Reese, ``Development of the retina and optic pathway,'' {\em Vision Res},
+  vol.~51, no.~7, pp.~613--32, 2011.
+
+\bibitem{RN3}
+T.~Brohm, K.~Haupt, and R.~Thiel, ``Pedestrian intention and gesture
+  classification using neural networks,'' {\em ATZ worldwide}, vol.~121, no.~4,
+  pp.~26--31, 2019.
+
+\bibitem{RN6}
+V.~Gulshan, L.~Peng, M.~Coram, M.~C. Stumpe, D.~Wu, A.~Narayanaswamy,
+  S.~Venugopalan, K.~Widner, T.~Madams, J.~Cuadros, R.~Kim, R.~Raman, P.~C.
+  Nelson, J.~L. Mega, and D.~R. Webster, ``Development and validation of a deep
+  learning algorithm for detection of diabetic retinopathy in retinal fundus
+  photographs,'' {\em JAMA}, vol.~316, no.~22, pp.~2402--2410, 2016.
+
+\bibitem{RN4}
+D.~Arendt, ``Evolution of eyes and photoreceptor cell types,'' {\em Int. J.
+  Dev. Biol}, vol.~47, pp.~563 -- 571, 2003.
+
+\bibitem{RN5}
+W.~L. Bewley and H.~F. O'Neil, ``Evaluation of medical simulations,''
+  no.~1930-613X (Electronic).
+
+\bibitem{RN24}
+T.~Guenther, N.~H. Lovell, and G.~J. Suaning, ``Bionic vision: system
+  architectures – a review,'' {\em Expert Review of Medical Devices}, vol.~9,
+  no.~1, pp.~33--48, 2012.
+
+\bibitem{RN8}
+R.~E. Marc, B.~W. Jones, C.~B. Watt, and E.~Strettoi, ``Neural remodeling in
+  retinal degeneration,'' {\em Prog Retin Eye Res}, vol.~22, no.~5,
+  pp.~607--55, 2003.
+
+\bibitem{RN10}
+E.~Bloch, Y.~Luo, and L.~da~Cruz, ``Advances in retinal prosthesis systems,''
+  {\em Therapeutic Advances in Ophthalmology}, vol.~11, p.~2515841418817501,
+  2019.
+
+\bibitem{RN9}
+M.~Kalloniatis, L.~Nivison-Smith, J.~Chua, M.~L. Acosta, and E.~L. Fletcher,
+  ``Using the rd1 mouse to understand functional and anatomical retinal
+  remodelling and treatment implications in retinitis pigmentosa: A review,''
+  {\em Experimental Eye Research}, vol.~150, pp.~106--121, 2016.
+
+\bibitem{RN13}
+Y.~Zheng, Z.~Jiang, F.~Xie, H.~Zhang, Y.~Ma, H.~Shi, and Y.~Zhao, ``Feature
+  extraction from histopathological images based on nucleus-guided
+  convolutional neural network for breast lesion classification,'' {\em Pattern
+  Recognition}, vol.~71, pp.~14--25, 2017.
+
+\bibitem{RN15}
+R.~Poplin, A.~V. Varadarajan, K.~Blumer, Y.~Liu, M.~V. McConnell, G.~S.
+  Corrado, L.~Peng, and D.~R. Webster, ``Prediction of cardiovascular risk
+  factors from retinal fundus photographs via deep learning,'' {\em Nature
+  Biomedical Engineering}, vol.~2, no.~3, pp.~158--164, 2018.
+
+\bibitem{RN16}
+H.~Takahashi, H.~Tampo, Y.~Arai, Y.~Inoue, and H.~Kawashima, ``Applying
+  artificial intelligence to disease staging: Deep learning for improved
+  staging of diabetic retinopathy,'' {\em PLOS ONE}, vol.~12, no.~6,
+  p.~e0179790, 2017.
+
+\bibitem{RN14}
+J.~Cho, K.~Lee, E.~Shin, G.~Choy, and S.~Do, ``Medical image deep learning with
+  hospital {PACS} dataset,'' {\em CoRR}, vol.~abs/1511.06348, 2015.
+
+\bibitem{RN19}
+D.~Cireşan, U.~Meier, J.~Masci, and J.~Schmidhuber, ``Multi-column deep neural
+  network for traffic sign classification,'' {\em Neural Networks}, vol.~32,
+  pp.~333--338, 2012.
+
+\bibitem{RN17}
+M.~Yang, N.~Otterness, T.~Amert, J.~Bakita, J.~H. Anderson, and
+  F.~Donelson~Smith, ``Avoiding pitfalls when using nvidia gpus for real-time
+  tasks in autonomous systems,'' {\em Schloss Dagstuhl--Leibniz-Zentrum fuer
+  Informatik}, vol.~106, 2018.
+
+\bibitem{RN18}
+A.~Pereira S Fau~Pinto, V.~Pinto A Fau~Alves, C.~A. Alves V Fau~Silva, and
+  C.~A. Silva, ``Brain tumor segmentation using convolutional neural networks
+  in mri images,'' no.~1558-254X (Electronic).
+
+\bibitem{RN21}
+K.~S. Saladin, {\em Human Anatomy}.
+\newblock Braille Jymico Incorporated, 2005.
+
+\bibitem{RN20}
+C.~H. Lee and H.-J. Yoon, ``Medical big data: promise and challenges,'' {\em
+  Kidney research and clinical practice}, vol.~36, no.~1, pp.~3--11, 2017.
+
+\bibitem{RN22}
+E.~Vayena, A.~Blasimme, and I.~G. Cohen, ``Machine learning in medicine:
+  Addressing ethical challenges,'' {\em PLoS medicine}, vol.~15, no.~11,
+  pp.~e1002689--e1002689, 2018.
+
+\bibitem{RN23}
+D.~A. Nayagam, J.~McGowan C Fau~Villalobos, R.~A. Villalobos J Fau~Williams,
+  C.~Williams Ra Fau Salinas-LaRosa, P.~Salinas-LaRosa C Fau~McKelvie,
+  I.~McKelvie P Fau~Lo, M.~Lo~I Fau~Basa, J.~Basa M Fau~Tan, C.~E. Tan J
+  Fau~Williams, and C.~E. Williams, ``Techniques for processing eyes implanted
+  with a retinal prosthesis for localized histopathological analysis. lid -
+  10.3791/50411 [doi],'' no.~1940-087X (Electronic).
+
+\end{thebibliography}
