@@ -1,0 +1,19 @@
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces Predictions of Age and Systolic Blood Pressure from Poplin et al. study)}}{7}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Plot of the Rectified Linear Units (ReLU) function used in the CNN's activation process}}{9}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces General Schematic of CNN used in image classification}}{10}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Architecture Search Plan}}{17}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Binary Classifier Training Accuracy Curve}}{19}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Binary Classifier Validation Accuracy Curve}}{19}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Binary Classifier Validation Loss Curve}}{20}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Architecture Search Results}}{21}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Optimal Multi Accuracy Curves; blue:training, orange:validation}}{21}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Optimal Multi Loss Curves; blue:training, orange:validation}}{22}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Model Vs Experts Confusion Matrix}}{22}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Model Vs Novice Confusion Matrix}}{23}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Expert (Michael) Vs Expert (Lisa) Confusion Matrix}}{23}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Novice (Mohamed) Vs Expert (Lisa) Confusion Matrix}}{24}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Novice (Mohamed) Vs Expert (Michael) Confusion Matrix}}{24}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces 3D Confusion Matrix; Novice(Mohamed) vs Expert(Michael) vs Expert(Lisa) (Part 1)}}{24}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces 3D Confusion Matrix; Novice(Mohamed) vs Expert(Michael) vs Expert(Lisa) (Part 2)}}{25}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces 3D Confusion Matrix; Novice(Mohamed) vs Expert(Michael) vs Expert(Lisa) (Part 3)}}{25}{figure.18}

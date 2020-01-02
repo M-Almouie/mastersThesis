@@ -1,0 +1,22 @@
+TY  - JOUR
+T1  - Multi-column deep neural network for traffic sign classification
+AU  - Cireşan, Dan
+AU  - Meier, Ueli
+AU  - Masci, Jonathan
+AU  - Schmidhuber, Jürgen
+JO  - Neural Networks
+VL  - 32
+SP  - 333
+EP  - 338
+PY  - 2012
+DA  - 2012/08/01/
+T2  - Selected Papers from IJCNN 2011
+SN  - 0893-6080
+DO  - https://doi.org/10.1016/j.neunet.2012.02.023
+UR  - http://www.sciencedirect.com/science/article/pii/S0893608012000524
+KW  - Deep neural networks
+KW  - Image classification
+KW  - Traffic signs
+KW  - Image preprocessing
+AB  - We describe the approach that won the final phase of the German traffic sign recognition benchmark. Our method is the only one that achieved a better-than-human recognition rate of 99.46%. We use a fast, fully parameterizable GPU implementation of a Deep Neural Network (DNN) that does not require careful design of pre-wired feature extractors, which are rather learned in a supervised way. Combining various DNNs trained on differently preprocessed data into a Multi-Column DNN (MCDNN) further boosts recognition performance, making the system insensitive also to variations in contrast and illumination.
+ER  - 

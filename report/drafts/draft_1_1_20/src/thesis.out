@@ -1,0 +1,33 @@
+\BOOKMARK [1][-]{section.1}{Abbreviations}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Literature Review}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Literature and Publication Analysis}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Retinal Degeneration}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Deep Learning - Biological Applications}{subsection.3.1}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Histological Analysis Limitations}{subsection.3.1}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Problem Statement}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Aims}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Hypothesis}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Methodology, Research Plans and Preparations}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Development Preparations}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Image Dataset and Pre-Processing}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Software Configurations and Setup}{subsection.4.1}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Model Performance Evaluation and Statistical Analysis}{subsection.4.1}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Proposed Solution}{section.4}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Binary Classifier Architecture \(RetinaNET v0.1\)}{subsection.4.2}% 17
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Multi Classifier Architecture \(RetinaNET v1.0\)}{subsection.4.2}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Development Plan}{subsection.4.2}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Risk Assessment}{subsection.4.2}% 20
+\BOOKMARK [1][-]{section.5}{Results}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Binary Classifier}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Multi Classifier}{section.5}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Architecture Search}{subsection.5.2}% 24
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Inter-Observer Variability}{subsection.5.2}% 25
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 26
+\BOOKMARK [2][-]{subsection.6.1}{Binary Classifier}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.2}{Multi Classifier}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.3}{Inter Observer Variability}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.4}{Future plans for RetinaNET}{section.6}% 30
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 31
+\BOOKMARK [1][-]{section.8}{Acknowledgements}{}% 32
+\BOOKMARK [1][-]{section.9}{Appendix}{}% 33

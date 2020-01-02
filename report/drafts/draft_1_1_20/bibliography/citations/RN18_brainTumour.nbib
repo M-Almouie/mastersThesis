@@ -1,0 +1,71 @@
+
+PMID- 26960222
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170628
+LR  - 20171111
+IS  - 1558-254X (Electronic)
+IS  - 0278-0062 (Linking)
+VI  - 35
+IP  - 5
+DP  - 2016 May
+TI  - Brain Tumor Segmentation Using Convolutional Neural Networks in MRI Images.
+PG  - 1240-1251
+LID - 10.1109/TMI.2016.2538465 [doi]
+AB  - Among brain tumors, gliomas are the most common and aggressive, leading to a very
+      short life expectancy in their highest grade. Thus, treatment planning is a key
+      stage to improve the quality of life of oncological patients. Magnetic resonance 
+      imaging (MRI) is a widely used imaging technique to assess these tumors, but the 
+      large amount of data produced by MRI prevents manual segmentation in a reasonable
+      time, limiting the use of precise quantitative measurements in the clinical
+      practice. So, automatic and reliable segmentation methods are required; however, 
+      the large spatial and structural variability among brain tumors make automatic
+      segmentation a challenging problem. In this paper, we propose an automatic
+      segmentation method based on Convolutional Neural Networks (CNN), exploring small
+      3 x3 kernels. The use of small kernels allows designing a deeper architecture,
+      besides having a positive effect against overfitting, given the fewer number of
+      weights in the network. We also investigated the use of intensity normalization
+      as a pre-processing step, which though not common in CNN-based segmentation
+      methods, proved together with data augmentation to be very effective for brain
+      tumor segmentation in MRI images. Our proposal was validated in the Brain Tumor
+      Segmentation Challenge 2013 database (BRATS 2013), obtaining simultaneously the
+      first position for the complete, core, and enhancing regions in Dice Similarity
+      Coefficient metric (0.88, 0.83, 0.77) for the Challenge data set. Also, it
+      obtained the overall first position by the online evaluation platform. We also
+      participated in the on-site BRATS 2015 Challenge using the same model, obtaining 
+      the second place, with Dice Similarity Coefficient metric of 0.78, 0.65, and 0.75
+      for the complete, core, and enhancing regions, respectively.
+FAU - Pereira, Sergio
+AU  - Pereira S
+FAU - Pinto, Adriano
+AU  - Pinto A
+FAU - Alves, Victor
+AU  - Alves V
+FAU - Silva, Carlos A
+AU  - Silva CA
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20160304
+PL  - United States
+TA  - IEEE Trans Med Imaging
+JT  - IEEE transactions on medical imaging
+JID - 8310780
+SB  - IM
+MH  - Brain Neoplasms/*diagnostic imaging/pathology
+MH  - Glioma/*diagnostic imaging/pathology
+MH  - Humans
+MH  - Image Interpretation, Computer-Assisted/*methods
+MH  - *Machine Learning
+MH  - Magnetic Resonance Imaging
+MH  - *Neural Networks (Computer)
+EDAT- 2016/03/10 06:00
+MHDA- 2017/06/29 06:00
+CRDT- 2016/03/10 06:00
+PHST- 2016/03/10 06:00 [pubmed]
+PHST- 2017/06/29 06:00 [medline]
+PHST- 2016/03/10 06:00 [entrez]
+AID - 10.1109/TMI.2016.2538465 [doi]
+PST - ppublish
+SO  - IEEE Trans Med Imaging. 2016 May;35(5):1240-1251. doi: 10.1109/TMI.2016.2538465. 
+      Epub 2016 Mar 4.

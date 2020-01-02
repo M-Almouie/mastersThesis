@@ -1,0 +1,19 @@
+TY  - JOUR
+T1  - Applying artificial intelligence to disease staging: Deep learning for improved staging of diabetic retinopathy
+A1  - Takahashi, Hidenori
+A1  - Tampo, Hironobu
+A1  - Arai, Yusuke
+A1  - Inoue, Yuji
+A1  - Kawashima, Hidetoshi
+Y1  - 2017/06/22
+N2  - Purpose Disease staging involves the assessment of disease severity or progression and is used for treatment selection. In diabetic retinopathy, disease staging using a wide area is more desirable than that using a limited area. We investigated if deep learning artificial intelligence (AI) could be used to grade diabetic retinopathy and determine treatment and prognosis.   Methods The retrospective study analyzed 9,939 posterior pole photographs of 2,740 patients with diabetes. Nonmydriatic 45° field color fundus photographs were taken of four fields in each eye annually at Jichi Medical University between May 2011 and June 2015. A modified fully randomly initialized GoogLeNet deep learning neural network was trained on 95% of the photographs using manual modified Davis grading of three additional adjacent photographs. We graded 4,709 of the 9,939 posterior pole fundus photographs using real prognoses. In addition, 95% of the photographs were learned by the modified GoogLeNet. Main outcome measures were prevalence and bias-adjusted Fleiss’ kappa (PABAK) of AI staging of the remaining 5% of the photographs.   Results The PABAK to modified Davis grading was 0.64 (accuracy, 81%; correct answer in 402 of 496 photographs). The PABAK to real prognosis grading was 0.37 (accuracy, 96%).   Conclusions We propose a novel AI disease-staging system for grading diabetic retinopathy that involves a retinal area not typically visualized on fundoscopy and another AI that directly suggests treatments and determines prognoses.
+JF  - PLOS ONE
+JA  - PLOS ONE
+VL  - 12
+IS  - 6
+UR  - https://doi.org/10.1371/journal.pone.0179790
+SP  - e0179790
+EP  - 
+PB  - Public Library of Science
+M3  - doi:10.1371/journal.pone.0179790
+ER  - 

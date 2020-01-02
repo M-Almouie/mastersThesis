@@ -1,0 +1,21 @@
+Change hyper-parameters:
+    - Measure confusion matrix  (heatmap on prediction set)
+    - f1 scores                 (heatmap on prediction set)
+    - accuracy/loss curves      (graphs on training validation and prediction test)
+
+Parameters to test:
+    - Batch sizes: 8, 16, 32, 64, 128
+    - layers:
+        * number of identical layers (depth)
+        * sizes of layers (width)
+    - different dropouts
+    - make iterations large enough
+
+Models to date:
+    Depth:
+        Model 1: deep (2 x 32 layers, 2 x 64 layers, 2 x 128 fully connected layers)
+        Model 3: deep (3 x 32 layers, 3 x 64 layers, 2 x 128 fully connected layers)
+
+    Width:
+        Model 2: wide (2 x 64 layers, 1 x 128 layer, 2 x 256 fully connected layers)
+        Model 4: wide (2 x 16 layers, 1 x 32 layer, 2 x 64 fully connected layers)

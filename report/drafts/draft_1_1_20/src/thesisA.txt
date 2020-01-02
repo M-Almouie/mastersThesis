@@ -1,0 +1,115 @@
+﻿@article{RN4,
+   author = {Arendt, Detlev},
+   title = {Evolution of eyes and photoreceptor cell types},
+   journal = {Int. J. Dev. Biol},
+   volume = {47},
+   pages = {563 - 571},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN5,
+   author = {Bewley, W. L. and O'Neil, H. F.},
+   title = {Evaluation of medical simulations},
+   number = {1930-613X (Electronic)},
+   type = {Journal Article}
+}
+
+@article{RN7,
+   author = {Bossuyt, X. and Verweire, K. and Blanckaert, N.},
+   title = {Laboratory medicine: challenges and opportunities},
+   journal = {Clin Chem},
+   volume = {53},
+   number = {10},
+   pages = {1730-3},
+   ISSN = {0009-9147 (Print)
+0009-9147 (Linking)},
+   DOI = {10.1373/clinchem.2007.093989},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/17885139},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN3,
+   author = {Brohm, Thomas and Haupt, Karl and Thiel, Robert},
+   title = {Pedestrian Intention and Gesture Classification Using Neural Networks},
+   journal = {ATZ worldwide},
+   volume = {121},
+   number = {4},
+   pages = {26-31},
+   ISSN = {2192-9076},
+   DOI = {10.1007/s38311-019-0006-6},
+   url = {https://doi.org/10.1007/s38311-019-0006-6},
+   year = {2019},
+   type = {Journal Article}
+}
+
+@article{RN2,
+   author = {Gulshan, Varun and Peng, Lily and Coram, Marc and Stumpe, Martin C. and Wu, Derek and Narayanaswamy, Arunachalam and Venugopalan, Subhashini and Widner, Kasumi and Madams, Tom and Cuadros, Jorge and Kim, Ramasamy and Raman, Rajiv and Nelson, Philip C. and Mega, Jessica L. and Webster, Dale R.},
+   title = {Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus PhotographsAccuracy of a Deep Learning Algorithm for Detection of Diabetic RetinopathyAccuracy of a Deep Learning Algorithm for Detection of Diabetic Retinopathy},
+   journal = {JAMA},
+   volume = {316},
+   number = {22},
+   pages = {2402-2410},
+   ISSN = {0098-7484},
+   DOI = {10.1001/jama.2016.17216},
+   url = {https://doi.org/10.1001/jama.2016.17216},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN6,
+   author = {Gulshan, Varun and Peng, Lily and Coram, Marc and Stumpe, Martin C. and Wu, Derek and Narayanaswamy, Arunachalam and Venugopalan, Subhashini and Widner, Kasumi and Madams, Tom and Cuadros, Jorge and Kim, Ramasamy and Raman, Rajiv and Nelson, Philip C. and Mega, Jessica L. and Webster, Dale R.},
+   title = {Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus PhotographsAccuracy of a Deep Learning Algorithm for Detection of Diabetic RetinopathyAccuracy of a Deep Learning Algorithm for Detection of Diabetic Retinopathy},
+   journal = {JAMA},
+   volume = {316},
+   number = {22},
+   pages = {2402-2410},
+   ISSN = {0098-7484},
+   DOI = {10.1001/jama.2016.17216},
+   url = {https://doi.org/10.1001/jama.2016.17216},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN9,
+   author = {Kalloniatis, M. and Nivison-Smith, L. and Chua, J. and Acosta, M. L. and Fletcher, E. L.},
+   title = {Using the rd1 mouse to understand functional and anatomical retinal remodelling and treatment implications in retinitis pigmentosa: A review},
+   journal = {Experimental Eye Research},
+   volume = {150},
+   pages = {106-121},
+   ISSN = {0014-4835},
+   DOI = {https://doi.org/10.1016/j.exer.2015.10.019},
+   url = {http://www.sciencedirect.com/science/article/pii/S0014483515300579},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN8,
+   author = {Marc, R. E. and Jones, B. W. and Watt, C. B. and Strettoi, E.},
+   title = {Neural remodeling in retinal degeneration},
+   journal = {Prog Retin Eye Res},
+   volume = {22},
+   number = {5},
+   pages = {607-55},
+   ISSN = {1350-9462 (Print)
+1350-9462 (Linking)},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/12892644},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN1,
+   author = {Reese, B. E.},
+   title = {Development of the retina and optic pathway},
+   journal = {Vision Res},
+   volume = {51},
+   number = {7},
+   pages = {613-32},
+   ISSN = {0042-6989 (Print)
+0042-6989},
+   DOI = {10.1016/j.visres.2010.07.010},
+   year = {2011},
+   type = {Journal Article}
+}
+

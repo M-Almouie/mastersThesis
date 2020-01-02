@@ -1,0 +1,20 @@
+conv1 64x64
+conv2 64x64
+conv3 128x128
+fc 256
+
+batch_size 16
+
+epochs 400
+val_size 20%
+
+Training Epoch 12 --- Training Accuracy:  93.8%, Validation Accuracy:  93.8%,  Validation Loss: 0.291
+
+testing_set (trained on cropped)
+
+cropped:
+0: 1 (0) 0 (1)   0 (2)
+1: 0.39 (0) 0.39 (1) 0.23 (2)
+2: 0 (0) 0.04 (1) 0.96 (2)
+
+uncropped:
