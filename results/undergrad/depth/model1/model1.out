@@ -1,0 +1,57 @@
+Collecting tensorflow-gpu==2.0.0
+  Using cached https://files.pythonhosted.org/packages/a1/eb/bc0784af18f612838f90419cf4805c37c20ddb957f5ffe0c42144562dcfa/tensorflow_gpu-2.0.0-cp37-cp37m-manylinux2010_x86_64.whl
+Requirement already satisfied: grpcio>=1.8.6 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (1.19.0)
+Requirement already satisfied: wrapt>=1.11.1 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (1.11.1)
+Requirement already satisfied: astor>=0.6.0 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (0.7.1)
+Requirement already satisfied: google-pasta>=0.1.6 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (0.1.7)
+Requirement already satisfied: absl-py>=0.7.0 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (0.7.1)
+Requirement already satisfied: wheel>=0.26 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (0.33.1)
+Requirement already satisfied: gast==0.2.2 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (0.2.2)
+Requirement already satisfied: six>=1.10.0 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (1.12.0)
+Requirement already satisfied: protobuf>=3.6.1 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (3.7.1)
+Collecting keras-applications>=1.0.8 (from tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl
+Requirement already satisfied: keras-preprocessing>=1.0.5 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (1.0.9)
+Requirement already satisfied: numpy<2.0,>=1.16.0 in /apps/python/3.7.3/lib/python3.7/site-packages/numpy-1.16.2-py3.7-linux-x86_64.egg (from tensorflow-gpu==2.0.0) (1.16.2)
+Requirement already satisfied: termcolor>=1.1.0 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorflow-gpu==2.0.0) (1.1.0)
+Collecting tensorboard<2.1.0,>=2.0.0 (from tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/76/54/99b9d5d52d5cb732f099baaaf7740403e83fe6b0cedde940fabd2b13d75a/tensorboard-2.0.2-py3-none-any.whl
+Collecting tensorflow-estimator<2.1.0,>=2.0.0 (from tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/fc/08/8b927337b7019c374719145d1dceba21a8bb909b93b1ad6f8fb7d22c1ca1/tensorflow_estimator-2.0.1-py2.py3-none-any.whl
+Collecting opt-einsum>=2.3.2 (from tensorflow-gpu==2.0.0)
+Requirement already satisfied: setuptools in ./pyEnv/lib/python3.7/site-packages (from protobuf>=3.6.1->tensorflow-gpu==2.0.0) (40.8.0)
+Requirement already satisfied: h5py in /apps/python/3.7.3/lib/python3.7/site-packages (from keras-applications>=1.0.8->tensorflow-gpu==2.0.0) (2.9.0)
+Requirement already satisfied: markdown>=2.6.8 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (3.1)
+Requirement already satisfied: werkzeug>=0.11.15 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (0.15.1)
+Collecting google-auth<2,>=1.6.3 (from tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/1c/6d/7aae38a9022f982cf8167775c7fc299f203417b698c27080ce09060bba07/google_auth-1.11.0-py2.py3-none-any.whl
+Requirement already satisfied: requests<3,>=2.21.0 in /apps/python/3.7.3/lib/python3.7/site-packages (from tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (2.21.0)
+Collecting google-auth-oauthlib<0.5,>=0.4.1 (from tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/7b/b8/88def36e74bee9fce511c9519571f4e485e890093ab7442284f4ffaef60b/google_auth_oauthlib-0.4.1-py2.py3-none-any.whl
+Collecting rsa<4.1,>=3.1.4 (from google-auth<2,>=1.6.3->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/02/e5/38518af393f7c214357079ce67a317307936896e961e35450b70fad2a9cf/rsa-4.0-py2.py3-none-any.whl
+Collecting cachetools<5.0,>=2.0.0 (from google-auth<2,>=1.6.3->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/08/6a/abf83cb951617793fd49c98cb9456860f5df66ff89883c8660aa0672d425/cachetools-4.0.0-py3-none-any.whl
+Collecting pyasn1-modules>=0.2.1 (from google-auth<2,>=1.6.3->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /apps/python/3.7.3/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /apps/python/3.7.3/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (2019.3.9)
+Requirement already satisfied: idna<2.9,>=2.5 in /apps/python/3.7.3/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (2.8)
+Requirement already satisfied: urllib3<1.25,>=1.21.1 in /apps/python/3.7.3/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0) (1.24.1)
+Collecting requests-oauthlib>=0.7.0 (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/a3/12/b92740d845ab62ea4edf04d2f4164d82532b5a0b03836d4d4e71c6f3d379/requests_oauthlib-1.3.0-py2.py3-none-any.whl
+Collecting pyasn1>=0.1.3 (from rsa<4.1,>=3.1.4->google-auth<2,>=1.6.3->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl
+Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.1.0,>=2.0.0->tensorflow-gpu==2.0.0)
+  Using cached https://files.pythonhosted.org/packages/05/57/ce2e7a8fa7c0afb54a0581b14a65b56e62b5759dbc98e80627142b8a3704/oauthlib-3.1.0-py2.py3-none-any.whl
+Installing collected packages: keras-applications, pyasn1, rsa, cachetools, pyasn1-modules, google-auth, oauthlib, requests-oauthlib, google-auth-oauthlib, tensorboard, tensorflow-estimator, opt-einsum, tensorflow-gpu
+  Found existing installation: Keras-Applications 1.0.7
+    Not uninstalling keras-applications at /apps/python/3.7.3/lib/python3.7/site-packages, outside environment /home/z5114185/thesis/undergrad/depth/model1/pyEnv
+    Can't uninstall 'Keras-Applications'. No files were found to uninstall.
+  Found existing installation: tensorboard 1.13.1
+    Not uninstalling tensorboard at /apps/python/3.7.3/lib/python3.7/site-packages, outside environment /home/z5114185/thesis/undergrad/depth/model1/pyEnv
+    Can't uninstall 'tensorboard'. No files were found to uninstall.
+  Found existing installation: tensorflow-estimator 1.13.0
+    Not uninstalling tensorflow-estimator at /apps/python/3.7.3/lib/python3.7/site-packages, outside environment /home/z5114185/thesis/undergrad/depth/model1/pyEnv
+    Can't uninstall 'tensorflow-estimator'. No files were found to uninstall.
+Successfully installed cachetools-4.0.0 google-auth-1.11.0 google-auth-oauthlib-0.4.1 keras-applications-1.0.8 oauthlib-3.1.0 opt-einsum-3.1.0 pyasn1-0.4.8 pyasn1-modules-0.2.8 requests-oauthlib-1.3.0 rsa-4.0 tensorboard-2.0.2 tensorflow-estimator-2.0.1 tensorflow-gpu-2.0.0

@@ -1,0 +1,19 @@
+conv1 16x16
+conv2 16x16
+conv3 16x16
+conv4 32x32
+conv5 32x32
+conv6 32x32
+fc 128
+
+batch_size 32
+
+epochs 400
+val_size 20%
+
+testing_set (trained on cropped)
+
+cropped:
+0: 0.04 (0) 0.96 (1)   0 (2)
+1: 0.03 (0) 0.90 (1) 0.06 (2)
+2: 0 (0) 0.15 (1) 0.85 (2)
