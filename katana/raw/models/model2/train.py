@@ -8,26 +8,33 @@ import matplotlib as mp
 import matplotlib.pyplot as plt
 from cv2 import cv2
 from numpy.random import seed
-from tensorflow import set_random_seed
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+# train path: /srv/scratch/z5114185/thesis/datasetV1.1
 
 # Randomisation
 seed(1)
-set_random_seed(2)
+tf.set_random_seed(2)
 
 # Hyperparameters
 validation_size = 0.2
 img_size = 128
 num_channels = 3
-batch_size = 16
-learningRate = 1e-4
+batch_size = 256
+learningRate = 1e-3
 
 # Architecture parameters
 filter_size_conv1 = 3 
-num_filters_conv1 = 32
-filter_size_conv2 = 3
-num_filters_conv2 = 32
+num_filters_conv1 = 512
+filter_size_conv2 = 3 
+num_filters_conv2 = 512
 filter_size_conv3 = 3
-num_filters_conv3 = 64
+num_filters_conv3 = 1024
+filter_size_conv4 = 3
+num_filters_conv4 = 1024
+
 fc_layer_size = 128
 
 def variable_summaries(var):
@@ -111,8 +118,8 @@ def train(session, data, x, y_true, cost, optimiser, accuracy, merged, val_accur
     for i in range(total_iterations,
                    total_iterations + num_iteration):
 
-        x_batch, y_true_batch, _ = data.train.next_batch(batch_size)
-        x_valid_batch, y_valid_batch, _ = data.valid.next_batch(batch_size)
+        x_batch, y_true_batch, _, cls_batch = data.train.next_batch(batch_size)
+        x_valid_batch, y_valid_batch,_, valid_cls_batch = data.valid.next_batch(batch_size)
         
         feed_dict_tr =  {x: x_batch, y_true: y_true_batch}
         feed_dict_val = {x: x_valid_batch, y_true: y_valid_batch}
@@ -176,31 +183,36 @@ def main():
 
     # CNN Archiecture
     layer_conv1 = create_convolutional_layer(input=x,
-                num_input_channels=num_channels,
-                conv_filter_size=filter_size_conv1,
-                num_filters=num_filters_conv1)
+				   num_input_channels=num_channels,
+				   conv_filter_size=filter_size_conv1,
+				   num_filters=num_filters_conv1)
 
     layer_conv2 = create_convolutional_layer(input=layer_conv1,
-                num_input_channels=num_filters_conv1,
-                conv_filter_size=filter_size_conv2,
-                num_filters=num_filters_conv2)
+				   num_input_channels=num_filters_conv1,
+				   conv_filter_size=filter_size_conv2,
+				   num_filters=num_filters_conv2)
 
     layer_conv3= create_convolutional_layer(input=layer_conv2,
-                num_input_channels=num_filters_conv2,
-                conv_filter_size=filter_size_conv3,
-                num_filters=num_filters_conv3)
-            
-    layer_flat = create_flatten_layer(layer_conv3)
+				   num_input_channels=num_filters_conv2,
+				   conv_filter_size=filter_size_conv3,
+				   num_filters=num_filters_conv3)
+
+    layer_conv4= create_convolutional_layer(input=layer_conv3,
+				   num_input_channels=num_filters_conv3,
+				   conv_filter_size=filter_size_conv4,
+				   num_filters=num_filters_conv4)
+			  
+    layer_flat = create_flatten_layer(layer_conv4)
 
     layer_fc1 = create_fc_layer(input=layer_flat,
-                        num_inputs=layer_flat.get_shape()[1:4].num_elements(),
-                        num_outputs=fc_layer_size,
-                        use_relu=True)
+						 num_inputs=layer_flat.get_shape()[1:4].num_elements(),
+						 num_outputs=fc_layer_size,
+						 use_relu=True)
 
     layer_fc2 = create_fc_layer(input=layer_fc1,
-                        num_inputs=fc_layer_size,
-                        num_outputs=num_classes,
-                        use_relu=False) 
+						 num_inputs=fc_layer_size,
+						 num_outputs=num_classes,
+						 use_relu=False) 
 
     y_pred = tf.nn.softmax(layer_fc2,name='y_pred')
     y_pred_cls = tf.argmax(y_pred, dimension=1)
@@ -208,7 +220,7 @@ def main():
     # Hyperparameters
     cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=layer_fc2, labels=y_true)
     cost = tf.reduce_mean(cross_entropy)
-    optimiser = tf.train.AdamOptimizer(learningRate).minimize(cost)
+    optimiser = tf.train.GradientDescentOptimizer(learningRate).minimize(cost)
     correct_prediction = tf.equal(y_pred_cls, y_true_cls)
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     val_accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
@@ -220,15 +232,18 @@ def main():
     merged = tf.summary.merge_all()
 
     # Tensorboard summary file writers
-    train_writer = tf.summary.FileWriter('summary/train', session.graph)
-    test_writer = tf.summary.FileWriter('summary/test')
+    train_writer = tf.summary.FileWriter('summary/trainModel1', session.graph)
+    test_writer = tf.summary.FileWriter('summary/testModel1')
 
     session.run(tf.global_variables_initializer()) 
     saver = tf.train.Saver()
 
     # Train model
     train(session, data, x, y_true, cost, optimiser, accuracy, merged, val_accuracy, 
-            train_writer, test_writer, num_iteration=4000)
+            train_writer, test_writer, num_iteration=80000)
     
     # Save a model checkpoint
-    saver.save(session, './retina-model')
+    saver.save(session, './retina-model1')
+ 
+main()
+

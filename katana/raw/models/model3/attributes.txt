@@ -1,0 +1,11 @@
+conv1 Xx1024
+conv2 1024x1024
+conv3 1024x2048
+conv4 2048x2048
+
+fc 128
+
+batch_size 256
+
+epochs 80000
+val_size 20%

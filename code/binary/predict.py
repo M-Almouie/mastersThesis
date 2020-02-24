@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np
 import os,glob,cv2
 import sys,argparse
+from cv2 import cv2
 
 
 # First, pass the path of the image
